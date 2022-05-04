@@ -8,7 +8,6 @@ function shuffle(array) {
 }
 
 function test(array) {
-    console.log(array)
     for (let i = 1; i < array.length; i++) {
         if (array[i-1] > array[i]) return false
     }
